@@ -1,0 +1,159 @@
+<!-- 
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        .box {
+            width: 100px;
+            height: 100px;
+            background: lightgreen;
+            margin: 10px;
+        }
+        .relative-box {
+            position: relative;
+            left: 30px;
+            top: 20px;
+            background: lightcoral;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">Box 1</div>
+    <div class="box relative-box">Box 2 (Relative)</div>
+    <div class="box">Box 3</div>
+</body>
+</html> -->
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        .container {
+            position: relative; /* Reference for absolute child */
+            width: 300px;
+            height: 200px;
+            background: lightgray;
+            margin: 20px;
+        }
+        .box {
+            width: 100px;
+            height: 100px;
+            background: lightblue;
+        }
+        .absolute-box {
+            position: absolute;
+            top: 30px;
+            left: 50px;
+            background: orange;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">Normal</div>
+        <div class="box absolute-box">Absolute</div>
+    </div>
+</body>
+</html> -->
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        .fixed-box {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background: darkblue;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+        .content {
+            margin-top: 50px;
+            height: 150vh; /* Makes page scrollable */
+            background: lightgray;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="fixed-box">Fixed Header</div>
+    <div class="content">Scroll down to see how the header stays fixed.</div>
+</body>
+</html> -->
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        .sticky-box {
+            position: sticky;
+            top: 10px;
+            background: yellow;
+            padding: 10px;
+        }
+        .content {
+            height: 200vh;
+            background: lightgray;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="sticky-box">Sticky Header (Scroll down)</div>
+    <div class="content">Scroll down to see the sticky effect.</div>
+</body>
+</html> -->
+
+<style>
+    .container {
+
+        border: 1px solid red;
+        /* position: relative; */
+    }
+
+    img {
+        margin: 10px;
+    }
+
+    .image2{
+        position: relative;
+        top: 100px;
+        left: 100px;
+    }
+</style>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <img src="https://media.istockphoto.com/id/1317323736/photo/a-view-up-into-the-trees-direction-sky.jpg?s=612x612&w=0&k=20&c=i4HYO7xhao7CkGy7Zc_8XSNX_iqG0vAwNsrH1ERmw2Q="
+            width="300px" height="300px" class="image1" alt="">
+
+        <img src="https://st.depositphotos.com/2001755/3622/i/450/depositphotos_36220949-stock-photo-beautiful-landscape.jpg"
+            width="300px" height="300px" class="image2" alt="">
+
+        <img src="https://cdn.pixabay.com/photo/2021/08/25/20/42/field-6574455_640.jpg" width="300px" height="300px"
+            class="image3" alt="">
+
+
+        <img src="https://images.pexels.com/photos/2325447/pexels-photo-2325447.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+            width="300px" height="300px" class="image4" alt="">
+
+
+    </div>
+</body>
+
+</html>

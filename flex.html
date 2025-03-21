@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            display: flex;
+            background: #2c3e50;
+            color: white;
+            justify-content: space-between;
+            padding: 20px;
+            align-items: center;
+        }
+
+        header .logo{
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        header nav{
+            display: flex;
+            gap: 20px;
+        }
+
+        header a {
+            text-decoration: none;
+            color: white;
+            font-size: 18px;
+        }
+
+        .hero {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 300px;
+            background: #3498db;
+            color: white;
+            font-size: 32px;
+            font-weight: bold;
+        }
+
+        .features {
+            display: flex;
+            gap: 20px;
+            padding: 40px;
+            justify-content: space-around;
+        }
+
+        .feature {
+            flex: 1;
+            background: #ecf0f1;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">My Website</div>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="hero">
+        Welcome to My Awesome Website 🚀
+    </section>
+
+     <!-- THREE COLUMN SECTION -->
+     <section class="features">
+        <div class="feature">🔥 Feature 1</div>
+        <div class="feature">🚀 Feature 2</div>
+        <div class="feature">💡 Feature 3</div>
+    </section>
+</body>
+</html>

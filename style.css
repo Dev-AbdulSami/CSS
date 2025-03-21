@@ -1,0 +1,12 @@
+/* 
+  #head{
+      color: blue;
+  } */
+
+h1{
+  color: red;
+}
+
+div h1{
+  color: blue;
+}
